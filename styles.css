@@ -102,15 +102,6 @@ a{color:var(--blue)}
 .hero--photo::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,36,107,.94) 0%,rgba(0,57,166,.86) 55%,rgba(0,57,166,.72) 100%)}
 .hero--photo::after{opacity:.5}
 
-/* ---------- gallery ---------- */
-.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,1.4vw,16px)}
-.gallery figure{margin:0;border-radius:var(--radius);overflow:hidden;background:var(--tint);line-height:0;position:relative}
-.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
-.gallery figure:hover img{transform:scale(1.04)}
-.gallery figure:nth-child(1){grid-column:span 2;grid-row:span 2}
-.gallery figure:nth-child(1) img{aspect-ratio:4/3}
-.gallery figure:not(:nth-child(1)) img{aspect-ratio:4/3}
-
 /* ---------- event flyer ---------- */
 .hero__stack{display:flex;flex-direction:column;gap:20px}
 .flyer{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lift);background:#fff;line-height:0}
@@ -192,7 +183,10 @@ a{color:var(--blue)}
 .log__tag--panel{color:var(--red);background:rgba(204,0,0,.08)}
 
 /* ---------- cta band ---------- */
-.cta{background:var(--blue-dark);color:#fff}
+.cta{background:var(--blue-dark);color:#fff;position:relative;overflow:hidden}
+.cta--photo{background-size:cover;background-position:center 40%}
+.cta--photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,36,107,.95) 0%,rgba(0,36,107,.88) 60%,rgba(0,57,166,.78) 100%)}
+.cta .wrap{position:relative;z-index:1}
 .cta .wrap{display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:space-between;padding-block:clamp(44px,6vw,72px)}
 .cta h2{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);max-width:24ch}
 .cta p{margin-top:12px;color:rgba(255,255,255,.8);max-width:48ch}
@@ -216,8 +210,6 @@ a{color:var(--blue)}
 @media (max-width:960px){
   .hero__grid,.split,.panel{grid-template-columns:1fr}
   .cards,.roster{grid-template-columns:repeat(2,1fr)}
-  .gallery{grid-template-columns:repeat(2,1fr)}
-  .gallery figure:nth-child(1){grid-column:span 2;grid-row:auto}
   .stats{grid-template-columns:repeat(2,1fr)}
   .foot__grid{grid-template-columns:1fr 1fr}
   .log li{grid-template-columns:110px 1fr;row-gap:6px}
@@ -233,5 +225,4 @@ a{color:var(--blue)}
   .nav__group.is-open .nav__menu{display:block}
   .nav__links .btn{margin-top:12px;justify-content:center}
   .cards,.roster,.stats,.foot__grid{grid-template-columns:1fr}
-  .gallery{grid-template-columns:repeat(2,1fr)}
 }

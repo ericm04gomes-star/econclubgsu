@@ -98,6 +98,7 @@ a{color:var(--blue)}
 .mcard__foot{border-top:1px solid var(--line);padding:16px 24px;display:flex;flex-wrap:wrap;gap:14px;font-size:.9rem;font-weight:700}
 
 /* ---------- event flyer ---------- */
+.hero__stack{display:flex;flex-direction:column;gap:20px}
 .flyer{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lift);background:#fff;line-height:0}
 .flyer img{width:100%;height:auto}
 .split .flyer{margin-bottom:24px}

@@ -176,6 +176,11 @@ a{color:var(--blue)}
 .log__tag{justify-self:start;font-size:.76rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);background:rgba(0,57,166,.08);padding:5px 11px;border-radius:100px}
 .log__tag--chat{color:var(--blue-cool);background:rgba(0,113,206,.1)}
 .log__tag--panel{color:var(--red);background:rgba(204,0,0,.08)}
+.log--links li{grid-template-columns:150px 1fr 110px}
+.log__time{font-weight:400;color:var(--muted);font-size:.83rem}
+.log__where{font-weight:400;color:var(--muted);font-size:.88rem}
+.log__go{justify-self:end;font-weight:700;font-size:.9rem;text-decoration:none;white-space:nowrap}
+.log__go:hover{text-decoration:underline}
 
 /* ---------- cta band ---------- */
 .cta{background:var(--blue-dark);color:#fff;position:relative;overflow:hidden}
@@ -206,9 +211,11 @@ a{color:var(--blue)}
   .stats{grid-template-columns:repeat(2,1fr)}
   .foot__grid{grid-template-columns:1fr 1fr}
   .log li{grid-template-columns:110px 1fr;row-gap:6px}
+  .log--links li{grid-template-columns:110px 1fr}
+  .log__go{justify-self:start;grid-column:2}
   .log__tag{grid-column:2}
 }
-@media (max-width:720px){
+@media (max-width:940px){
   body{font-size:16px}
   .nav__toggle{display:block}
   .nav__links{display:none;position:absolute;top:74px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow-lift);padding:10px 16px 20px;max-height:calc(100vh - 74px);overflow:auto}

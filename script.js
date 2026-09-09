@@ -19,10 +19,10 @@
       if (!open) { g.classList.add('is-open'); btn.setAttribute('aria-expanded', 'true'); }
     });
     g.addEventListener('mouseenter', function () {
-      if (window.matchMedia('(min-width:721px)').matches) g.classList.add('is-open');
+      if (window.matchMedia('(min-width:941px)').matches) g.classList.add('is-open');
     });
     g.addEventListener('mouseleave', function () {
-      if (window.matchMedia('(min-width:721px)').matches) g.classList.remove('is-open');
+      if (window.matchMedia('(min-width:941px)').matches) g.classList.remove('is-open');
     });
   });
   document.addEventListener('click', function () {

@@ -4,26 +4,24 @@ Website for the Economics Club at Georgia State University.
 
 ## Files
 
-- `index.html` .......... home
-- `about.html` .......... purpose and meeting formats
-- `officers.html` ....... executive board and advisor
-- `mentorship.html` ..... Panthers and Cubs
-- `events.html` ......... upcoming, fall schedule, past events
-- `journal.html` ........ the Georgia State Economics Review
-- `join.html` ........... how to join
-- `contact.html` ........ who handles what
-- `styles.css` .......... all styling, shared by every page
-- `script.js` ........... navigation menus
-- `photos/` ............. officer headshots
-- `assets/` ............. club logo
+Ten files, no folders. Upload all of them to the top level of the repository.
 
-Upload every file and both folders to the repository, keeping the folder
-structure intact.
+- index.html, about.html, officers.html, mentorship.html,
+  events.html, journal.html, join.html, contact.html
+- styles.css  — all styling, shared by every page
+- script.js   — navigation menus
+
+The logo and the officer headshots are embedded inside the HTML itself, so
+there are no image folders to upload and nothing that can go missing.
 
 ## Editing
 
-Text lives in the HTML files. Colours and spacing live at the top of
-`styles.css` under `:root`. Changing a value there updates all eight pages.
+Text lives in the HTML files. Colours and spacing are at the top of styles.css
+under `:root`; changing a value there updates all eight pages.
+
+To swap an officer photo you need the image converted to a data URI. Ask
+whoever maintains the site, or use any "image to base64" converter and replace
+the long string inside that person's `<img src="...">`.
 
 ## Outstanding
 

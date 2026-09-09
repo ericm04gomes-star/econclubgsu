@@ -97,6 +97,11 @@ a{color:var(--blue)}
 .mcard dd{margin:0}
 .mcard__foot{border-top:1px solid var(--line);padding:16px 24px;display:flex;flex-wrap:wrap;gap:14px;font-size:.9rem;font-weight:700}
 
+/* ---------- event flyer ---------- */
+.flyer{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lift);background:#fff;line-height:0}
+.flyer img{width:100%;height:auto}
+.split .flyer{margin-bottom:24px}
+
 /* ---------- stats band ---------- */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
 .stat{background:#fff;padding:28px 24px;text-align:center}

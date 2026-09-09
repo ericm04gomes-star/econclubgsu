@@ -97,11 +97,6 @@ a{color:var(--blue)}
 .mcard dd{margin:0}
 .mcard__foot{border-top:1px solid var(--line);padding:16px 24px;display:flex;flex-wrap:wrap;gap:14px;font-size:.9rem;font-weight:700}
 
-/* ---------- photo-backed page header ---------- */
-.hero--photo{background-size:cover;background-position:center}
-.hero--photo::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,36,107,.94) 0%,rgba(0,57,166,.86) 55%,rgba(0,57,166,.72) 100%)}
-.hero--photo::after{opacity:.5}
-
 /* ---------- event flyer ---------- */
 .hero__stack{display:flex;flex-direction:column;gap:20px}
 .flyer{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lift);background:#fff;line-height:0}
@@ -184,8 +179,6 @@ a{color:var(--blue)}
 
 /* ---------- cta band ---------- */
 .cta{background:var(--blue-dark);color:#fff;position:relative;overflow:hidden}
-.cta--photo{background-size:cover;background-position:center 40%}
-.cta--photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,36,107,.95) 0%,rgba(0,36,107,.88) 60%,rgba(0,57,166,.78) 100%)}
 .cta .wrap{position:relative;z-index:1}
 .cta .wrap{display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:space-between;padding-block:clamp(44px,6vw,72px)}
 .cta h2{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);max-width:24ch}

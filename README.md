@@ -1,31 +1,175 @@
-# econclub-gsu
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join | Economics Club at Georgia State University</title>
+<meta name="description" content="How to join the Economics Club at Georgia State University through PIN, GroupMe and our interest form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__brand" href="index.html"><img src="data:image/png;base64,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" alt="Economics Club, Georgia State University"></a>
+    <button class="nav__toggle" type="button" aria-expanded="false">Menu</button>
+    <nav class="nav__links">
+        <a class="nav__link" href="index.html">Home</a>
+        <div class="nav__group">
+          <button class="nav__link" type="button" aria-expanded="false">About <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+          <div class="nav__menu">
+            <a href="about.html"><b>About the Club</b><span>Purpose, structure and history</span></a>
+            <a href="officers.html"><b>Officers</b><span>The executive board and advisor</span></a>
+            <a href="mentorship.html"><b>Panthers and Cubs</b><span>Mentorship for underclassmen</span></a>
+          </div>
+        </div>
+        <div class="nav__group">
+          <button class="nav__link" type="button" aria-expanded="false">Meetings <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+          <div class="nav__menu">
+            <a href="events.html"><b>Upcoming Events</b><span>Next meeting and fall schedule</span></a>
+            <a href="events.html#past"><b>Past Events</b><span>A record of recent meetings</span></a>
+          </div>
+        </div>
+        <div class="nav__group">
+          <button class="nav__link" type="button" aria-expanded="false" aria-current="true">Resources <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+          <div class="nav__menu">
+            <a href="journal.html"><b>Economics Review</b><span>Our forthcoming student journal</span></a>
+            <a href="join.html"><b>Join the Club</b><span>PIN, GroupMe and the interest form</span></a>
+            <a href="https://success.students.gsu.edu/learning-tutoring-center/#ONLINE-TUTORING"><b>Tutoring Center</b><span>Free academic support at GSU</span></a>
+          </div>
+        </div>
+        <a class="nav__link" href="contact.html">Contact</a>
+      <a class="btn btn--primary btn--sm" href="join.html">Join now</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero hero--slim">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Join</p>
+      <h1>Joining takes about a minute</h1>
+      <p class="hero__lede">Event invitations are sent through the Panther Involvement Network and updates are posted in the GroupMe. Joining both is sufficient.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Three steps</p>
+        <ul class="steps">
+          <li><i>1</i><div><b>Join us on PIN</b><span>Open our organization page and join with your campus login. Event invitations and RSVPs are handled there.</span></div></li>
+          <li><i>2</i><div><b>Join the GroupMe</b><span>Updates are posted here, including reminders and room changes.</span></div></li>
+          <li><i>3</i><div><b>Attend a meeting</b><span>Attendance at a single meeting carries no further obligation.</span></div></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="https://pin.gsu.edu/actioncenter/organization/economics-club">Join on PIN <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn--outline" href="https://groupme.com/join_group/97576354/ViAdK5QQ">Join the GroupMe</a>
+        </div>
+      </div>
+      <div class="cards" style="grid-template-columns:1fr">
+        <article class="card">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <h3>Interest form</h3>
+          <p>Prefer to leave your details and let us reach out? Fill in the interest form and we will add you to the invitation list. Responses go directly to the board.</p>
+          <div class="card__list">
+            <b>What we ask for</b>
+            <ul>
+              <li>Name and Panther email</li>
+              <li>Major and year</li>
+              <li>What you are hoping to get out of the club</li>
+            </ul>
+          </div>
+          <a class="card__link" href="https://forms.cloud.microsoft/r/cCS9iw1YU4">Open the interest form <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-Website for the Economics Club at Georgia State University.
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="h-block h-block--center">
+        <p class="eyebrow">Common questions</p>
+        <h2>Before you join</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Do I need to be an economics major?</h3>
+          <p>No. Membership is open to students of every major, and no economics coursework is expected. Members come from across the Robinson College of Business and the Andrew Young School.</p>
+        </article>
+        <article class="card">
+          <h3>Are there dues?</h3>
+          <p>No. There are no dues at any level of membership, and no application to complete.</p>
+        </article>
+        <article class="card">
+          <h3>Do I have to come every week?</h3>
+          <p>No. Come to the meetings that interest you. Attendance at a single meeting carries no further obligation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <div class="wrap">
+      <div>
+        <h2>Attend one meeting before deciding.</h2>
+        <p>Attendance does not require membership, and there are no dues.</p>
+      </div>
+      <div class="btn-row" style="margin-top:0">
+        <a class="btn btn--white" href="https://forms.cloud.microsoft/r/cCS9iw1YU4">Interest form <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn--ghost" href="https://pin.gsu.edu/actioncenter/organization/economics-club">Join on PIN</a>
+      </div>
+    </div>
+  </section>
 
-## Files
-
-Ten files, no folders. Upload all of them to the top level of the repository.
-
-- index.html, about.html, officers.html, mentorship.html,
-  events.html, journal.html, join.html, contact.html
-- styles.css  — all styling, shared by every page
-- script.js   — navigation menus
-
-The logo and the officer headshots are embedded inside the HTML itself, so
-there are no image folders to upload and nothing that can go missing.
-
-## Editing
-
-Text lives in the HTML files. Colours and spacing are at the top of styles.css
-under `:root`; changing a value there updates all eight pages.
-
-To swap an officer photo you need the image converted to a data URI. Ask
-whoever maintains the site, or use any "image to base64" converter and replace
-the long string inside that person's `<img src="...">`.
-
-## Outstanding
-
-- Officer biosketches are not written yet.
-- Submission details for the Economics Review are marked "Forthcoming".
-- Each board member should open the interest form in Microsoft Forms and turn
-  on "Get email notification of each response".
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAB8BAMAAADqcXT7AAAAGFBMVEX///////v//f35/PtqisACOqQAOKUCMJ5Lq+vnAAAUCUlEQVR42u2bz3IbyZbef5nQjVkRdRJQu1ciCkVtmywS8tbuvk2/wTyJX2QewW/gu55wd6u9vGEVCekuR6wqQKueICpPQdtGHi8KoEi1OBO2ww6OQ7kpsJiZ9dWXJ8+/PAVf2//nzYE/f7LoNu2/BQbz5/Jk0d1q+wxGiycL8K/wDFL9VPF54Bn42V+e6CK/HAAmmvOnSKILDADB4Z4gh0EPywzxSa6x3jEIMT49fAWfGNz/8VR38pNuXwF+BfgV4L91gM/ugz1uAwSAmrkGiGAToin5OsN0cSW2PV6J6WTclsu5xkU1jMj6YK0QvQmRAtOiJjoJphQVQFE7IURwUodMlpxsJjrfuF7qAH0Wum0O9C/eSnyMQQ/M6rquLac1qPtwMDmtyd5q594JpWwB5+B8khOELajDDSrf00ItYOAeuseRIMx9u5RccsasUea4kByS6rquAeQRBi3S5wrAFttOwoJdTZ/ZxwVAg+9y0whO3+UWWhCpoQcnPZBDZxaIWZdWOeYgRnweC7OWhAusBue48XlsP3wHVZEsEgvyVgauNtFURB+RwZDf3S/y2MKqGF3M/YsYN9dLyAc6hCKvwYVow2J0qFADBFFSYHQBOMn385v2wpR84KYGcssnuyWrCUhuvqb32ASgyLHHZNBEwzBlyoT2rKlOhF2bcme1L9vOxRBMszaE1E5j3nPcFo2kdgFZVCZjT7SC1DNenbX4Iw82mbV4GTwT4rziJFQQCwM6LPDR1C+IWWBbSJ8po+/eZl8GyCqrhh+j77acXi+opscF2Xr3cUE1DRQVlBRdxTTPdTPKi8qLX+yWMCriDRCmFZz3WXa9YPe374JP43clu7+duQJMuVpQjQpCVeHylrKpmMJxRZjslmyAaSp3jzFI7vbxk2k/e3s5Og23XvP+6LksbsLtqOaVmCLuFRGOXsl0F25HxrNLiHZUCHTpEnt97N5duvK6hDT72w8hv/7OrbJrty2Wl6PTEHW8eyX2K3j/Uogpf/6SjT27HAK5UVqijwCUfjoI4e4f5O1lmdaLmyZH3I/UJ9z8pWS0SL+w6v8+/dzLs5M8eW4ap88X8Nct05LdL4zK319/nF6WabXY/TRffbgsaRa7n86avIfLknaxe52Ylrtft+ju7xa71y3PF/yjn5YA3DT49IiacQ0au7qua8rji7LezuoTcQ3TVBd1ffJ9amnWAiRcYnpce6tPBE0ptiP3gSaCo2s5dmXdS/3hxB3PyzrOmw9TzSF3Za2zepT7lkZLg23qAEidg7qmresTIR+VXwboUeK2KIoC1pNmsrku6nNyd6p55ef1+bsdjM8RaE37cpXfNPPu3F6AmRhnWcQZimun9aRr5uM5Nk2uriSdr1pPO22KzXVRz5kPz7MIWMgGZSlSJx9aefuoJTEvuN9/Gtg87TcNyzNLNnVcadRjV6aEGx0ZSJr/ycKVsh1r+jhBw+ZtMHK7OgPwZXP0huv5R1Fai8vRMWWDp2x2DcvZBzNMsBQAlscewwyyK9yf2VjMll9mMAk4qqq6qTR3faT+2dbZB1rTpurC+ggymsVbHDjRow3dJvcCWJwDd5kel7heptcCZM6W5UZbclKf3PV1+jljPBgDh3lH2bI82I7G3kJJ9685C31IzsZqE/P5KC+JcGLGyCDDlwBL0WaEt5bpMOZsfrf1DGxTkq0gqRTf103doEJJ0nN/5mV0b9XuBXAsDenVZY+qGQB3CWzMtzPakFewwim5i62Xm2/wbCU3AKfWi7ps0048vk9/OrxySnMno24VNhtwyoWLO9dOkrgW2rytHvVcStyx/+0haZ8DtOkJ8I97gy2vS0i2A9RD+42/8Xb+3xFIHsbQA3TyIZO/+6S9PLJTstclrjuL60W6/jmIGZLVRnpdsveZPqPmwyV08aMml+njS2xNV6cBX76rS1AcaEcyoJOeD3slsGu3BiYJEfoR91ZG44icEuvTW0mNLv6ckwZrii9J3LO3SygHOpJFcxF74M18DtDMlHaQCtdPqmoJkPAHx2mTDT5Dzkhw4HBAN3swKy7R9lW1FG6Xfqb1+TC4BWb7OQHyBCUcTEcTG3sl2/5fWmIfG3A+6THs0Eu6d8NrKChIZut00sxgjUjb5jgV4PqHQLPXBZBMTCKvxLSOo/PuPDrSOkPnNXCJbdDswM8dWpu9xp1spZN/0eW3qqreOJI4tpIvFmPzjFDcHErUaKWVQQScM04hDWKQf5rRBI9negLFZfm+u0Z3TpQcMtwhYZrnniSUcDAcy+Z3Hc991McAGhjTxWLRemN95Pxbi6NyaefLmewn6dnJGHihac7sfAU6yM9Jq4dJRkvWY3+uZ8rycnF0wnVAAGM7XrM8bQFhWTebd7hVWowd4kHJc+gpMX0MoCLkQO6WyPToZmGmCXHfXy+n7ViVIDTvegPVeS9Xyx9XbDyIrWvZ4TgHAfPplVTnZLvS2umuykFdxzX2/EV1TraDLeVisTg3m0yXf5u0Nhi75gPAJH9MBtWjvgCsma3Ty/4/XcQMvzldXzh3urJBzFN32sNoZ1w4VzYv3scpoOOkfzJs9W0EWWYf52FR5x/bt1nRX07JPBryd9kJzxfN7CNkfQH+9tcf7cK501VD+63ri4JcedyjBsi2Mw2WmnH7H5oFtd+ArWf9wlrXDF6QvyoyHam8O10vqP01oNl3YCM0czOAvDvT6UntazI93S6w1Yu3M6A7rU9IIaHfmpOg7jZfnq5Oxn14bznWB+i39T2b+bk3E0RCPiRb17freYyTFzfU3DiJOt8pvQ/58vg7DcIxG5/HWLxQZgRGWshe+xY5mt6KdcWxJrdbm9YcX5+Ro+ldkdp+/DMwCRMXgBufp6070gjF3IG80OQeYzBBl/aCnuSmmyR7P9IC+3kOXUNruzqZbp/Vtlu5nuFuZ88bW57X6WrRGPpNnZB0ey35TdT17PebINRRe9cG4/ZK6G5GSVI9SF1nP899sjdo1tWYo4u0jwJ0kZvDT1nuRiUsx+FKZksD2Lnw5noHvLne+VmcvTEA67P3VoVbq+a3bwj8NwhtmnVdvVtejLuPm0UH1UXnUanKX0pYlm22LAf1Fz6+uS5hOWZb/499OER6VAaLepJtc8BivzuRTXsxi8C6iPWoTCppYVo356lIfdLJnE0/6Qg24qLxnK+ySaa+gJjCh3yzLgu1nik3en6hsgVkO9u0J6fQTwZl2GkZqUblaRtDMWTy7Vr0vi1+4LAuLWdcA84KTXUoFImCqSwsRidtD6JvZ20KLREtQg84q51LV+JW4rI2g1gwrkMeNWvdPNajE5rQCqZzYjGtOxWszlqfgTfbFmxaqOdqUuM6Z48mj3x+2qYmhBDG25Q3PsQ4zsQFtVg3MVos+zAE3bO08LjQOkLRulzE1GR83qXWQyrAz7GejwvH1mXi6GxIhFDXLswDYr7IQ3AbJR/TC6DW1yFk3A/pPmew66QdMgRoT74c22gHMHuX+Q0AtTOg8sdA141ekCqnR23A0zAt3wX64xbC7spn1l/sYKeikrWs8pY2j/gcsAaFgg6ayWhIT0izuA40D7UgOPJv/uM/zEL1BI8h+svfdPk1gfkV4FeAXwF+PYYApA0Tc5kG0xCdxPtX6yW67N71j12i+6zL/2LXL3dRl99Zkv8Sn2LRwkReHiyJ5rUEIeACn1+dEOTz6x+7ype6/m/PhgtIau8YfP1E5e/lb7p8Bp7qqQLcbxK9fOK7+MkWb+lvA8AnW7w12TPoRMNTxOf0YEncE7YnfgjTnyS27gBQH546P5kWvnozXwF+BfgV4P87gEMuUgHuyn7s0UH25X/rF349mOpu6qifxpvuf5raF557YFAtxu0cQGJQUJjEqIpF6CP0qhEsRqJto0ZUUaKqxRjV4nDKEmMkcv8sy+IBsFJoxCD2PscUokVMBY0Qo2SqoFEj6PAS95dYIYvEGJ3UoFmMNRiog4wYM5EwnMwFkssCCGaYEZwTiKgpiGM4Gf/UokXUsH32PkImhmNPGLbndgWYGWFflTxM4si/PQ6auYgT80JqA9HJvrDaNDohFpDacGd+qAPEQPQ5pB6sdzmp3xuo1H4qy44u6+eQ1ilfyd5nSj3R4QYWh0kAUntX7JtWAtAPLv+AE4TJzQ2haESU7u5YXrDiRpkWdRgWGygasQD+uIIF4BjXOFEBq2HefuJPmFUwPW49dvA7nYgyqyGYOtH6k7TVX46L9xhdFSsWWq4y+m4vAd+vQIb7pz3GcL/5scnAvbjaLEd6QgZW8zyDoTJifv8J2ZVWCyV0ll3tn/RDD1K3uLwFl/av83wsun/s89P+j2pG3CayWGy6dzgHdQtNNKBvblksNpu1AlgLvFnOHCbXv44Wp29uciUT3Q1boVlyfY/A0Nc/c86bOnNAoy3UCi54pV0ynDyzU01JcydqdUtr986a7ulBjaSq+mibmQn4F1XV1SAcx9FmWY2snYHBrqqWi5+B7U7LarNcWAvQDq5vryVlf3+T6KLy1eKqRcDq47qKQ9edpWyNGCzrle6WzXCTTbW5uqeoDktszl68590lkesfnDr4cDnIppmm5y+J7MDJP+tLwZbZ2kSuqS85Wb7QMwWL3wCJHcn2R7QAHL9Pr8KPWm6Dg4LaL3AJ6zP1kmlG3q/K0DXTqQxQTmSQ0i/JIO1lyfv/6tcGyFCL2Mi2Y/2q5M0yX2fgxC34/ZeJZoxhtCB1zZ/soGPR/J/6Md2Z3tfR03L3c/M8OnfJe5aX0Ii6bLT8DnDEkxP+Wrgfoc0YJbcA0griAPLeEjdI2XTzi1I/aaEoURTK2JWooo5kdXQXgKJ2kpr15MScAwwnhrl28tHsPr7t5mr08t8LWBsB6looaHFClxvUdQukOqWDfYltBiIPGRSnukohcy+PVyC3nFUc9FJvqOUbbLaykSt4fx0kOSNJW8TjNYpkg9Z0TRvKFqKzQenpxMS6anrRBMhgSRKF2ltbjrYT1BEU4hZZuYydtwpc7u6KXz877dxdwWZiBs24gtGigR0QERNA/tmsIs71eDtoxApwWX984Ezzt65l7WR/I9ewzDfLsvsU2DqnAoorf139+d52GgpXb9/As/+sn+tB0wCTDz7+NNqNLrN8jdgC1SSRkYFPCmgv2HsdlUdhHwhKTVU+K2M/HsQ4bOycMuldDc06O++aUNauvG+gI+P3xxNXtm/Hn0fk/rzv+y8q6r0alxx69eBBZCWwM2ysLMffDgQs4MOrw5jdcjS6J29J0zcOujtFm/hwMtlcTexddiBLJUJG/+9g98d40vkQ3GAk5XOAHtyldR6Q2/D27/ce2MiDk8ztV8FDcuXBc3p+2cXJnYskGaPdNd44VIPkq9ylZnqNnumDiHIpu2XKu7PPPLMUfoTWvsig5G07Odn9RbA7PWmgopln29kIcPj5vFtKmwTH6k9nE/4ah4rvQSMsyzdM5ZNyaGdXTEfnUScPaOo3x/qG0Bd/ODt0aWvjP/qDTjTNedGG5lrbYQeVdEl9JIN8GXI9pxzWozjPRVG25Lay3Vbv1Kpum7Lu3a6x9pOv8NO15s7E37N/CBqynlaWdlcQdMeIyAT9ogwyenOEHntctsX4CfDf9zZvua1MmSfIfjOXVtb501ZU4i2buJpgkTGQcJomBUx3akNNAo5F2lTmD2rtAOI90ynEs/VD3xGffgEmZY/0D22xuQ9H7fFPP9lyX/dEqq42Bu7DkXL7K5tpL+Ad+PHUHEhYTn9/fSh6m09w+VjdpCh+wN/ZOhsd+dvXSruvfs/zwTuD50Xxg0OlBUaH7iPicldV/pO1858Mnbx60Qa5+vNQi1ZdtXsXePzqaOnPquclGKkCpvX1W0c6+aEalTt/BCFwcwWa7a4mIXe7q91hz7p2uluXVPPj4a1vWnCC8ZYQOLrpJFdhd5XjEGR3VafW8QVngYB9fH4BoVRwyOLOkWX7vIRXJ5jTyWiBy8YFCL2eozw7+b0HHS9AYjZaoPTTBd5lA4vjSX8Or078Xkc5L2BwLiqr6WjYI6MFYL0w3Sd7P5Wm7F1+AbBJunYXkFZik7uQi3483E8rMS2gDk5IPaY+v9FpDo1En5NW0ufQiE2gDrZ3uvo8XbuLfUTnhGi92ATSSnSOqfXiBBoxdXdBwQp56PIPo6Nb0Ig5MeowRAwBxlu2C2qfAppHECyigmLxhDqaBhtKovtxIwauzttg6gYzntXFgvoQ49QBRekNJ9F1GlCHdUMG0Ij72Nd9eRfTJQ0o4POWINvjFZg3N64J0QErAYVgs54QZ1rvJ0sBjDGCOiz0wfSge5x0DiyGYStC3pojQHRiEPPV/kNYdxc6i+b6pcyCRZQYwbushX19jTNBczQIIDFmQNQWCKuhhsPhnMWomUqMTmIPHPAlwTk+xcYWI4FDkYo6pJWow8NDsOhdCMEF/XLq4/CFZyaEEORuqxstd1F/60LYf/srLusD0e52XTsU9yl2sBABLBp7B9MocD1CjCgCggtgn1Y2PR7VAbUTGxL+KvtMyAAx7LkPMcDweJV9twgxZL1gisuiHLIJd56LL5qDy+JCfSjGjQ+SHPGTLok8KGJ+sEnC4bNosxisf+AJSQwq5oAM9SnuuwEEU5FPn1GLDqruEDqlOnyWd3bDx2GQtxAQBdG9d+EOnQehfcigKXu5C+x34WBjnaBENDMVU1y2p5ewJ9s0YE6IcNAVh/EBzMU9NBUiBAIqmLoQQSUAgaiZ3g+XVL6UfpPDDv+joyaIG/4vhxcNHOqB3V0YI//6Ac2+m3Mg4W6APPyQPcgfFPWTa/3X0qivAL8C/Arw/357BhSEpwmuH7T6iTxZ+nZLnnxz4PMni67ma/s/bv8TSQ0LsG55MXwAAAAASUVORK5CYII=" alt="Economics Club, Georgia State University">
+        <p>A student organization at Georgia State University connecting students with faculty, alumni and professionals working in economics, finance and business.</p>
+        <div class="btn-row"><a class="btn btn--primary btn--sm" href="join.html">Join the club <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div>
+      </div>
+      <div>
+        <h4>Club</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="officers.html">Officers</a></li>
+          <li><a href="mentorship.html">Panthers and Cubs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Meetings</h4>
+        <ul>
+          <li><a href="events.html">Upcoming events</a></li>
+          <li><a href="events.html#past">Past events</a></li>
+          <li><a href="journal.html">Economics Review</a></li>
+          <li><a href="https://success.students.gsu.edu/learning-tutoring-center/#ONLINE-TUTORING">Tutoring Center</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://pin.gsu.edu/actioncenter/organization/economics-club">Panther Involvement Network</a></li>
+          <li><a href="https://groupme.com/join_group/97576354/ViAdK5QQ">GroupMe</a></li>
+          <li><a href="https://instagram.com/econclubgsu">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/gsu-economics-club/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__bar">
+      <p>&copy; 2026 Economics Club at Georgia State University. Atlanta, GA.</p>
+      <div class="foot__social">
+        <a href="https://instagram.com/econclubgsu" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.linkedin.com/company/gsu-economics-club/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95C21.4 8.75 22 11 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2.05-3.3-2.05 0-2.37 1.57-2.37 3.2V21h-3.6z"/></svg></a>
+        <a href="https://groupme.com/join_group/97576354/ViAdK5QQ" aria-label="GroupMe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a8 8 0 01-11.5 7.2L4 21l1.8-5.4A8 8 0 1121 12z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
